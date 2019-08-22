@@ -1,0 +1,11 @@
+<ul>
+  <li *ngFor="let item of arr" (click)="onSelect(item)" [class.selected]="item===selectNumber">{{item}}</li>
+</ul>
+<textarea [(ngModel)]="words">
+</textarea>
+<button (click)="submit()">提交</button>
+<a  [href]="url" *ngIf="url.toString().endsWith('.html')">url</a>
+<div *ngIf="num">{{num}}</div>
+<a href="../../../assets/cd8a5f60-2095-4e57-a62d-58463739eda1.html">s</a>
+<br/>
+<a href="../../../assets/q.html">csdvf</a>
